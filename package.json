@@ -7,8 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "compile": "hardhat compile",
+  "test": "hardhat test",
+  "coverage": "hardhat coverage",
+  "deploy": "hardhat run scripts/deploy.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/23A91A0565/dex-amm.git"
